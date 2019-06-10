@@ -8,7 +8,7 @@ app = Sanic('douglass')
 app.config.from_pyfile('config.py')
 
 
-@app.get('/')
+@app.get('/status')
 async def status(request):
     return response.text('OK')
 
