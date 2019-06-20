@@ -6,6 +6,7 @@ chardet==3.0.4
 decorator==4.4.0
 defusedxml==0.6.0
 entrypoints==0.3
+gunicorn==19.7.1
 httptools==0.0.13
 idna==2.8
 ipython-genutils==0.2.0
@@ -22,6 +23,7 @@ Pygments==2.4.2
 pyrsistent==0.15.2
 requests==2.22.0
 sanic==19.3.1
+Sanic-Cors==0.9.8
 six==1.12.0
 testpath==0.4.2
 traitlets==4.3.2
